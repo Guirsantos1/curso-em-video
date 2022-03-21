@@ -1,4 +1,4 @@
 n1 = float(input('Digite sua nota:'))
 n2 = float(input('Digite sua outra nota:'))
 m = (n1 + n2) / 2
-print ('Sua média é {}'.format (m))
+print (f'Sua média é {m}')
