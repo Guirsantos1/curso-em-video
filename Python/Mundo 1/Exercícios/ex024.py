@@ -1,2 +1,2 @@
-cidade = str(input('Digite uma cidade: ')).upper().strip().split()
-print('Essa cidade começa com SANTO? {}'.format('SANTO' in cidade[0]))
+cidade = str(input('Digite nome de uma cidade: ')).upper().strip().split()
+print(f'Essa cidade começa com SANTO? {"SANTO" in cidade [0]}')
