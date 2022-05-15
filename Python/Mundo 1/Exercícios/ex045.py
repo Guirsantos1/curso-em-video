@@ -6,7 +6,7 @@ print('''Suas Opções:
 [1] Papel
 [2] Tesoura''')
 jogador = int(input('Qual sua jogada ? '))
-print(f'O Computador jogou: {lista[maquina]}')
+print(f'O Computador jogou: {lista[maquina]}') #lista e maquina juntos para pegar da lista com o random da maquina.
 print(f'O Jogador jogou: {lista[jogador]}')
 if jogador == maquina:
     print('EMPATE')
