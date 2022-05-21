@@ -1,4 +1,18 @@
-sexo = str(input('Digite seu sexo [M/F]:')).strip().upper() 
-while sexo not in 'MmFf':
-    sexo = str(input('Dados invalidos, repita o processo: ')).strip().upper()
-print(f'Sexo {sexo} registrado !')
+velho = 0
+cont = 0
+media = 0
+for c in range(1, 5):
+    print('----{}ª PESSOA----'.format(c))
+    nome = str(input('Nome: ')).strip().capitalize()
+    idade = int(input('Idade: '))
+    sexo = str(input('M/F: '))
+    media += idade
+    if sexo.strip().upper() == 'M':
+        if idade > velho:
+            velho = idade
+            nvel = nome
+    if sexo.strip().upper() == 'F':
+        if idade < 21:
+            cont += 1
+mediaf = media / 4
+print(f'A média de idade do grupo é {mediaf}.\nO homem mais velho é {nvel}, de {velho} anos.\nHá {cont} mulheres com menos de 20 anos.')

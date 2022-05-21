@@ -1,10 +1,4 @@
-from random import randint
-maquina = randint (0,10)
-print('Pensei em um número entre 0 e 10.')
-print('Tente acertar!')
-palpites = 1
-while palpites != maquina:
-    jogador = int(input('Qual sua respota?  '))
-    palpites +=1
-print(f'''Parabéns o numero pensado foi {maquina}, !
-Você acertou após {palpites} tentativas''')
+sexo = str(input('Digite seu sexo [M/F]:')).strip().upper() 
+while sexo not in 'MmFf':
+    sexo = str(input('Dados invalidos, repita o processo: ')).strip().upper()
+print(f'Sexo {sexo} registrado !')
