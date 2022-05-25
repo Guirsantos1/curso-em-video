@@ -26,5 +26,7 @@ while user !=6:
         print('informe os numeros novamente')
         n1 = float(input('Primeiro valor: '))
         n2 = float(input('Segundo valor: '))
+    else:
+        print('Resposta invalida. Tente novamente')
 print('Fim do programa. Volte sempre 😁')
     
