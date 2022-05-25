@@ -14,4 +14,4 @@ while mais !=0:
         termo += razão
         cont +=1
     mais = int(input('PAUSA\nQuantos termos você quer mostras a mais? '))
-print(f'Progressão finalizada. {cont} PA exibidas !')
+print(f'Progressão finalizada. {cont-1} PA exibidas !')
