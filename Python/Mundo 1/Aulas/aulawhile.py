@@ -23,5 +23,5 @@ while n != 0:
             par +=1
         else:
             impar +=1
-
 print(f'Você digitou {par} números pares e {impar} números impares !')
+
