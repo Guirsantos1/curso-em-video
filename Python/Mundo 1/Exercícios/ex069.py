@@ -11,13 +11,13 @@ while True:
             cont18 +=1
     if sexo == 'M':
             conthomem += 1
-    if sexo == 'F' and idade >20:
+    if idade >20 and sexo == 'F':
             contmulher +=1
     resp = ' '
     while resp not in 'SN':
-        resp = str(input('Quer continuar ?' )).strip().upper()[0]
+        resp = str(input('Quer continuar ?[S]im/[N]ão ' )).strip().upper()[0]
     if resp == 'N':
         break
-print(f'O total de pessoas com mais de 18 anos: {cont18}')
-print(f'O total de homens cadastrado foi {conthomem}')
-print(f'O total de mulher com mais de 20 anos: {contmulher}')
+print(f'O total de pessoas maiores de idade: {cont18}')
+print(f'{conthomem} Homens cadastrados')
+print(f'Com {contmulher} Mulheres com mais de 20 anos:' )
