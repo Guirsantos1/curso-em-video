@@ -24,4 +24,4 @@ while True:
             print('Você Perdeu')
             break
     print('tente novamente')
-print('Você ganhou {}')
+print(f'Você ganhou {v} vezes')
