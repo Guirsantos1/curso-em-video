@@ -23,5 +23,5 @@ while True:
         else:
             print('Você Perdeu')
             break
-    print('tente novamente')
+    print('tente novamente seu ruim')
 print(f'Você ganhou {v} vezes')
