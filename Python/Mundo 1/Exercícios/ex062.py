@@ -7,11 +7,11 @@ termo = primeiro
 cont = 1
 total = 0
 mais = 10
-while mais !=0:
+while mais != 0:
     total = total + mais
-    while cont <=total:
-        print(termo, end = ' → ')
+    while cont <= total:
+        print(termo, end=' → ')
         termo += razão
-        cont +=1
+        cont += 1
     mais = int(input('PAUSA\nQuantos termos você quer mostras a mais? '))
 print(f'Progressão finalizada. {cont-1} PA exibidas !')

@@ -1,5 +1,5 @@
 print(30*'-')
-print(3*' ','Sequência de Fibonacci')
+print(3*' ', 'Sequência de Fibonacci')
 print(30*'-')
 n = int(input('Quantos termos deseja exibir ? '))
 t1 = 0
@@ -11,5 +11,5 @@ while cont <= n:
     print(f'→ {t3}', end=' ')
     t1 = t2
     t2 = t3
-    cont +=1
+    cont += 1
 print(f'.  {n} Termos exibidos.')

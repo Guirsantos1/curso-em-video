@@ -5,8 +5,8 @@ primeiro = int(input('Digite o primeiro termo: '))
 razão = int(input('Qual é a razão da P.A: '))
 termo = primeiro
 cont = 1
-while cont <=10:
-    print(termo, end = ' → ')
+while cont <= 10:
+    print(termo, end=' → ')
     termo += razão
-    cont +=1
+    cont += 1
 print('ACABOU')
